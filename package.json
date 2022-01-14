@@ -1,0 +1,22 @@
+{
+  "name": "daapp",
+  "version": "1.0.0",
+  "description": "DA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangeeta1234/Daapp.git"
+  },
+  "keywords": [
+    "microservic"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangeeta1234/Daapp/issues"
+  },
+  "homepage": "https://github.com/sangeeta1234/Daapp#readme"
+}
