@@ -45,7 +45,6 @@ db.sequelize = sequelize;
 db.Op = Op;
 db.QueryTypes = QueryTypes;
 
-db.tblDriverTripDetail = require('./tblDriverTripDetail')(sequelize, Sequelize);
 // console.log(db.sequelize.query("Select * from tbl_driver_trip_detail Where trip_id=:ids",{replacements: {ids: 'SLP_5518_0111161255',type: QueryTypes.SELECT}}).then(result=>{
 //     console.log(result);
 // }).catch(e=>{

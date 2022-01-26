@@ -1,13 +1,13 @@
 const express = require("express");
 const dotenv = require('dotenv');
 const app = express();
-
+dotenv.config(); 
 app.get('/', function (req, res) {
      res.send("Hello world");
 });
 
 app.use(express.json()) //req.body
-app.use('/vandapp', require('./routes/vanda.router'));
+app.use('/book', require('./routes/book.router'));
 // app.use(function (error, req, res) {
 //     res.send(200).json({error: error});
 // });
