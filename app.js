@@ -11,9 +11,9 @@ app.use('/vandapp', require('./routes/vanda.router'));
 // app.use(function (error, req, res) {
 //     res.send(200).json({error: error});
 // });
-app.use(function (err, req, res, next) {
-    res.json(err);
-})
+// app.use(function (err, req, res, next) {
+//     res.json(err);
+// })
 const PORT = process.env.PORT;
 
 const port = process.env.PORT || 3000
