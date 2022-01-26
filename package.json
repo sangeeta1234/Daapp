@@ -26,9 +26,13 @@
     "express": "^4.17.2",
     "geolib": "^3.3.3",
     "loadash": "^1.0.0",
+    "mongoose": "^6.1.8",
     "mysql2": "^2.3.3",
     "node-datetime": "^2.1.2",
-    "nodemon": "^2.0.15",
+    "redis": "^4.0.2",
     "sequelize": "^6.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
