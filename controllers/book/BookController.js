@@ -26,5 +26,7 @@ module.exports.getBookdetail = async(req,res,next)=>{
     }
     await client.quit();
     res.send(result);
+    
 };
+
 
